@@ -55,9 +55,6 @@ define( 'DS_LOG_ERROR', 'error' );
 define( 'DS_API_WRITABLE', 'writable' );
 define( 'DS_API_READONLY', 'readonly' );
 
-class DigiStoreApiException extends Exception {
-}
-
 class DigiStoreApi {
 
     const digistore_api_connector_version = 1.1;
