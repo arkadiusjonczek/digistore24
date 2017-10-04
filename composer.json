@@ -1,0 +1,24 @@
+{
+  "name": "arkadiusjonczek/digistore24",
+  "type": "library",
+  "description": "DigiStore24 API",
+  "keywords": [
+    "DigiStore24"
+  ],
+  "homepage": "https://github.com/arkadiusjonczek/digistore24",
+  "authors": [
+    {
+      "name": "Christian Neise",
+      "homepage": "https://doc.digistore24.com/api-de/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "DigiStore24\\": "src"
+    }
+  }
+}
